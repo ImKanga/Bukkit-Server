@@ -15,51 +15,103 @@ public class SQLManager {
         this.plugin = plugin;
     }
 
-    Connection c;
-    Boolean connected = false;
-    Boolean doesPlayerExist;
+    private static Connection c;
+    private static Boolean connected = false;
+    private static ResultSet rs;
+    private static Statement stmt;
 
-    private String url = "jdbc:mysql://localhost:3306/javabase";
-    private String user = "root";
-    private String password = "";
+    private static String url = "jdbc:mysql://localhost/phpmyadmin";
+    private static String user = "root";
+    private static String password = "";
 
-    public void attemptConnection() {
-        Bukkit.getLogger().info("Trying to connect to the database..");
-        try (Connection c = DriverManager.getConnection(url, user, password)){
-            Bukkit.getLogger().info("Connection Successful!");
-            connected = true;
-        } catch (SQLException e) {
-            Bukkit.getLogger().severe("Cannot connect to the database.");
-            throw new IllegalStateException("Cannot connect to the database.", e);
+    public static void attemptConnection() {
+        if (!isConnected()) {
+            Bukkit.getLogger().info("Trying to connect to the database..");
+            try (Connection c = DriverManager.getConnection(url, user, password)) {
+                Bukkit.getLogger().info("Connection Successful!");
+                connected = true;
+            } catch (SQLException e) {
+                Bukkit.getLogger().severe("Cannot connect to the database.");
+                throw new IllegalStateException("Cannot connect to the database.", e);
+            }
+        }
+    }
+
+    public static void closeConnection() {
+        if (isConnected()) {
+            Bukkit.getLogger().info("Closing connection..");
+            try {
+                rs.close();
+                stmt.close();
+                c.close();
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
 
     public void executeQuery(String query) {
         try {
             Statement stmt = c.createStatement();
-            ResultSet rs = stmt.executeQuery(query);
+            rs = stmt.executeQuery(query);
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
-    public Boolean playerExists(String uuid) {
-        Statement stmt = null;
-        try {
-            stmt = c.createStatement();
-            String query = "SELECT * FROM players WHERE uuid = '" + uuid + "'";
-            ResultSet rs = stmt.executeQuery(query);
-            if (!rs.first() && !rs.next()) {
-                doesPlayerExist = false;
-            } else {
-                doesPlayerExist = true;
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        return doesPlayerExist;
-    }
-    public Boolean isConnected() {
+    public static Boolean isConnected() {
         return connected;
+    }
+
+    public static Connection getConnection() {
+        return c;
+    }
+
+    public static ResultSet getResultSet() {
+        return rs;
+    }
+
+    public static void execute() {
+        Connection conn = null;
+        Statement stmt = null;
+        String DB_URL = "jdbc:mysql://localhost/EMP";
+        String USER = "root";
+        String PASS = "";
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Bukkit.getLogger().info("Connecting to database..");
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);
+
+            System.out.println("Creating statement..");
+            stmt = conn.createStatement();
+            String sql;
+            sql = "SELECT id, first, last, age FROM Employees";
+            ResultSet rs = stmt.executeQuery(sql);
+
+            while(rs.next()) {
+                int id = rs.getInt("id");
+                int age = rs.getInt("age");
+                String first = rs.getString("first");
+                String last = rs.getString("last");
+
+                System.out.print("ID: " + id);
+                System.out.print(", Age: " + age);
+                System.out.print(", First: " + first);
+                System.out.println(", Last: " + last);
+            }
+            rs.close();
+            stmt.close();
+            conn.close();
+        } catch (SQLException se) {
+            se.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (stmt != null)
+                    stmt.close();
+            } catch (SQLException se2) {
+            }
+        }
     }
 }

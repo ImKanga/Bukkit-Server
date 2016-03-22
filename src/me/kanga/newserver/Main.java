@@ -1,5 +1,6 @@
 package me.kanga.newserver;
 
+import me.kanga.newserver.sql.SQLManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -7,10 +8,18 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 public class Main extends JavaPlugin {
 
-    public void onEnable() {
 
+
+    long serverStarted;
+    public void onEnable() {
+        serverStarted = System.currentTimeMillis();
+        SQLManager.attemptConnection();
     }
     public void onDisable() {
 
+    }
+
+    public long getServerStartTime() {
+        return serverStarted;
     }
 }
