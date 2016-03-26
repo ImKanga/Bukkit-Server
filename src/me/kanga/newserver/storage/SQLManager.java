@@ -1,4 +1,4 @@
-package me.kanga.newserver.sql;
+package me.kanga.newserver.storage;
 
 import me.kanga.newserver.Main;
 import org.bukkit.Bukkit;
@@ -17,64 +17,81 @@ public class SQLManager {
 
     private static Connection c;
     private static Boolean connected = false;
-    private static ResultSet rs;
-    private static Statement stmt;
 
-    private static String url = "jdbc:mysql://localhost/phpmyadmin";
-    private static String user = "root";
-    private static String password = "";
+    private static final String url = "jdbc:mysql://localhost/phpmyadmin";
+    private static final String user = "root";
+    private static final String password = "";
 
     public static void attemptConnection() {
-        if (!isConnected()) {
+        if (!getConnected()) {
             Bukkit.getLogger().info("Trying to connect to the database..");
-            try (Connection c = DriverManager.getConnection(url, user, password)) {
+            try {
+                c = DriverManager.getConnection(url, user, password);
                 Bukkit.getLogger().info("Connection Successful!");
-                connected = true;
+                setConnected(true);
             } catch (SQLException e) {
                 Bukkit.getLogger().severe("Cannot connect to the database.");
                 throw new IllegalStateException("Cannot connect to the database.", e);
             }
+        } else {
+            Bukkit.getLogger().info("Already connected to the database!");
+        }
+    }
+
+    public static void useDatabase(String database) {
+        Statement stmt;
+        ResultSet rs;
+        if (!getConnected()) {
+            try {
+                stmt = c.createStatement();
+                String sql;
+                sql = "USE " + database;
+                rs = stmt.executeQuery(sql);
+                rs.close();
+                stmt.close();
+                Bukkit.getLogger().info("Now using the " + database + " database!");
+            } catch (SQLException se) {
+                se.printStackTrace();
+            }
+        } else {
+            attemptConnection();
         }
     }
 
     public static void closeConnection() {
-        if (isConnected()) {
+        if (getConnected()) {
             Bukkit.getLogger().info("Closing connection..");
             try {
-                rs.close();
-                stmt.close();
+                /* Statement & ResultSet are closed after each method:
+                e.g. getPlayerName(), getPlayerUUID */
                 c.close();
-
+                setConnected(false);
+                Bukkit.getLogger().info("Closed connection!");
             } catch (SQLException e) {
                 e.printStackTrace();
             }
         }
     }
 
-    public void executeQuery(String query) {
-        try {
-            Statement stmt = c.createStatement();
-            rs = stmt.executeQuery(query);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
-    public static Boolean isConnected() {
-        return connected;
-    }
-
     public static Connection getConnection() {
         return c;
     }
 
-    public static ResultSet getResultSet() {
-        return rs;
+    public static Boolean getConnected() {
+        return connected;
     }
 
+    public static void setConnected(Boolean connected) {
+        SQLManager.connected = connected;
+    }
+
+    /* EXAMPLE
+       EXAMPLE
+       EXAMPLE
     public static void execute() {
         Connection conn = null;
         Statement stmt = null;
-        String DB_URL = "jdbc:mysql://localhost/EMP";
+        String DB_URL = "jdbc:mysql://localhost/phpmyadmin";
         String USER = "root";
         String PASS = "";
         try {
@@ -113,5 +130,5 @@ public class SQLManager {
             } catch (SQLException se2) {
             }
         }
-    }
+    }*/
 }

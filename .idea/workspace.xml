@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49b09306-765d-45d1-92bd-474eea1fb23e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/.IdeaIC15/config/options/IntelliLang.xml" />
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/find.recents.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/kanga/newserver/player/FirstJoinManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/kanga/newserver/player/LeaveGameManager.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/spigot.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/kanga/newserver/player/FirstJoinManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/kanga/newserver/player/LeaveGameManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/me/kanga/newserver/sql/SQLManager.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_38_bin.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_38_bin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/New Server.iml" afterPath="$PROJECT_DIR$/New Server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/kanga/newserver/Main.java" afterPath="$PROJECT_DIR$/src/me/kanga/newserver/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java" afterPath="$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/kanga/newserver/sql/SQLManager.java" afterPath="$PROJECT_DIR$/src/me/kanga/newserver/sql/SQLManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java" afterPath="$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java" />
     </list>
     <ignored path="New Server.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,76 +30,149 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="New Server" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GamePlayer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GamePlayer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state vertical-scroll-proportion="10.086206">
+              <caret line="392" column="33" selection-start-line="392" selection-start-column="33" selection-end-line="392" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#13523#13531#0" expanded="true" />
+                <element signature="e#14357#14365#0" expanded="true" />
+                <element signature="e#15481#15489#0" expanded="true" />
+                <marker date="1459032454000" expanded="true" signature="1770:1981" placeholder="CREATE TABLE... Server" />
+                <marker date="1459032454000" expanded="true" signature="2594:2615" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2639" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2680" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2700" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2742" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2744" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2764" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2807" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2828" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2871" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2873" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2916" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:2970" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:3005" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="2594:3007" placeholder="UPDATE Playe... " />
+                <marker date="1459032454000" expanded="true" signature="3634:3671" placeholder="SELECT uuid Players" />
+                <marker date="1459032454000" expanded="true" signature="3634:3706" placeholder="SELECT uuid Players" />
+                <marker date="1459032454000" expanded="true" signature="4504:4519" placeholder="UPDATE playe... " />
+                <marker date="1459032454000" expanded="true" signature="4504:4533" placeholder="UPDATE playe... " />
+                <marker date="1459032454000" expanded="true" signature="4504:4547" placeholder="UPDATE playe... " />
+                <marker date="1459032454000" expanded="true" signature="4504:4553" placeholder="UPDATE playe... " />
+                <marker date="1459032454000" expanded="true" signature="4504:4560" placeholder="UPDATE playe... " />
+                <marker date="1459032454000" expanded="true" signature="4504:4573" placeholder="UPDATE playe... " />
+                <marker date="1459032454000" expanded="true" signature="4504:4575" placeholder="UPDATE playe... " />
+                <marker date="1459032454000" expanded="true" signature="4510:4511" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="4510:4519" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="5527:5528" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="5527:5623" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="5527:5636" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="5527:5637" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="5527:5672" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="5527:5674" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="6634:6680" placeholder="SELECT total... players" />
+                <marker date="1459032454000" expanded="true" signature="6634:6715" placeholder="SELECT total... players" />
+                <marker date="1459032454000" expanded="true" signature="6634:6717" placeholder="SELECT total... players" />
+                <marker date="1459032454000" expanded="true" signature="7822:7902" placeholder="SELECT total... players" />
+                <marker date="1459032454000" expanded="true" signature="9012:9093" placeholder="SELECT total... players" />
+                <marker date="1459032454000" expanded="true" signature="10204:10323" placeholder="UPDATE playe... " />
+                <marker date="1459032454000" expanded="true" signature="11298:11299" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="11298:11307" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="11298:11356" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="11298:11363" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="11298:11372" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="11298:11407" placeholder="INSERT INTO " />
+                <marker date="1459032454000" expanded="true" signature="11298:11409" placeholder="INSERT INTO " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstJoinManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/FirstJoinManager.java">
+      <file leaf-file-name="JoinGameHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/EventHandlers/JoinGameHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeaveGameManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/LeaveGameManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#ServerManager#0" expanded="false" />
-                <element signature="e#197#198#0" expanded="false" />
-                <element signature="e#233#234#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/sql/SQLManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#595#609#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/permissions/PermissionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1459032454000" expanded="true" signature="1269:1315" placeholder="CREATE TABLE... p_permissions" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupsHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/permissions/GroupsHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.666667">
+              <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#764#772#0" expanded="true" />
+                <element signature="e#827#835#0" expanded="true" />
+                <element signature="e#1802#1810#0" expanded="true" />
+                <element signature="e#2684#2692#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/storage/SQLManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1458988253000" expanded="true" signature="3174:3216" placeholder="SELECT id, f... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/storage/ConfigManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,19 +200,41 @@
       <list>
         <option value="$PROJECT_DIR$/src/me/kanga/server/Main.java" />
         <option value="$PROJECT_DIR$/src/me/kanga/server/player/GamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java" />
         <option value="$PROJECT_DIR$/src/me/kanga/newserver/player/FirstJoinManager.java" />
         <option value="$PROJECT_DIR$/src/me/kanga/newserver/player/LeaveGameManager.java" />
-        <option value="$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java" />
-        <option value="$PROJECT_DIR$/src/me/kanga/newserver/Main.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/sql/ResultSet.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/sql/Results.java" />
         <option value="$PROJECT_DIR$/src/me/kanga/newserver/sql/SQLManager.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/EventManager/FirstJoinManager.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3a3463c2-5e11-4bf5-b1bd-b08de7f7554b/console.sql" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/EventHandlers/LeaveGameHandler.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/EventHandlers/KickPlayerHandler.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/Main.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/EventHandlers/JoinGameHandler.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/storage/ConfigManager.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/server/permissions/PermissionHandler.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java" />
+        <option value="$PROJECT_DIR$/src/me/kanga/newserver/server/permissions/GroupsHandler.java" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="982" />
-    <option name="width" value="938" />
-    <option name="height" value="1040" />
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="677" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -161,7 +261,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="New Server" />
+              <option name="myItemId" value="Bukkit-Server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -186,7 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="New Server" />
+              <option name="myItemId" value="Bukkit-Server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -204,7 +305,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="New Server" />
+              <option name="myItemId" value="Bukkit-Server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -216,7 +317,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
+              <option name="myItemId" value="storage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,7 +327,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="New Server" />
+              <option name="myItemId" value="Bukkit-Server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -248,7 +349,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Bukkit-Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="permissions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="New Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bukkit-Server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -264,17 +391,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="New Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bukkit-Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventHandlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Prerequisites/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gm/s/spigot_server.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="void&#9;PSI&#9;JAVA://java.lang.Void" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -285,21 +438,31 @@
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -309,15 +472,27 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -343,6 +518,133 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -357,6 +659,16 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -422,6 +734,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -453,6 +768,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -511,10 +832,28 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -523,38 +862,44 @@
       <changelist id="49b09306-765d-45d1-92bd-474eea1fb23e" name="Default" comment="" />
       <created>1458030935965</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1458030935965</updated>
+      <workItem from="1458719356037" duration="9436000" />
+      <workItem from="1458960703552" duration="21265000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30701000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="982" y="0" width="938" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1366" height="677" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37171054" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28958786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19692533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24943988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -577,9 +922,199 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="216" column="5" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13523#13531#0" expanded="true" />
+            <element signature="e#14357#14365#0" expanded="true" />
+            <element signature="e#15481#15489#0" expanded="true" />
+            <marker date="1459032454000" expanded="true" signature="1770:1981" placeholder="CREATE TABLE... Server" />
+            <marker date="1459032454000" expanded="true" signature="2594:2615" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2639" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2680" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2700" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2742" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2744" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2764" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2807" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2828" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2871" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2873" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2916" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2970" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3005" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3007" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="3634:3671" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="3634:3706" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="4504:4519" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4533" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4547" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4553" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4560" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4573" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4575" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4510:4511" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="4510:4519" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5528" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5623" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5636" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5637" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5672" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5674" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="6634:6680" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6715" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6717" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="7822:7902" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="9012:9093" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="10204:10323" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="11298:11299" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11307" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11356" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11363" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11372" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11407" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11409" placeholder="INSERT INTO " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ServerManager#0" expanded="false" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="1035:1109" placeholder="CREATE TABLE... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1742" placeholder="SELECT Total... " />
+            <marker date="1458988253000" expanded="true" signature="1727:1773" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1788" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2471" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2492" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2507" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="3158:3217" placeholder="SELECT Serve... Server" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/storage/SQLManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="3174:3216" placeholder="SELECT id, f... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13523#13531#0" expanded="true" />
+            <element signature="e#14357#14365#0" expanded="true" />
+            <element signature="e#15481#15489#0" expanded="true" />
+            <marker date="1459032454000" expanded="true" signature="1770:1981" placeholder="CREATE TABLE... Server" />
+            <marker date="1459032454000" expanded="true" signature="2594:2615" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2639" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2680" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2700" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2742" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2744" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2764" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2807" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2828" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2871" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2873" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2916" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2970" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3005" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3007" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="3634:3671" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="3634:3706" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="4504:4519" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4533" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4547" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4553" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4560" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4573" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4575" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4510:4511" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="4510:4519" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5528" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5623" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5636" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5637" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5672" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5674" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="6634:6680" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6715" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6717" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="7822:7902" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="9012:9093" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="10204:10323" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="11298:11299" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11307" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11356" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11363" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11372" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11407" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11409" placeholder="INSERT INTO " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ServerManager#0" expanded="false" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="1035:1109" placeholder="CREATE TABLE... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1742" placeholder="SELECT Total... " />
+            <marker date="1458988253000" expanded="true" signature="1727:1773" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1788" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2471" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2492" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2507" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="3158:3217" placeholder="SELECT Serve... Server" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/storage/SQLManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="3174:3216" placeholder="SELECT id, f... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -587,7 +1122,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -595,7 +1130,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
@@ -603,47 +1138,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#13523#13531#0" expanded="true" />
+            <element signature="e#14357#14365#0" expanded="true" />
+            <element signature="e#15481#15489#0" expanded="true" />
+            <marker date="1459032454000" expanded="true" signature="1770:1981" placeholder="CREATE TABLE... Server" />
+            <marker date="1459032454000" expanded="true" signature="2594:2615" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2639" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2680" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2700" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2742" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2744" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2764" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2807" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2828" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2871" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2873" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2916" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2970" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3005" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3007" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="3634:3671" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="3634:3706" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="4504:4519" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4533" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4547" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4553" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4560" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4573" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4575" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4510:4511" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="4510:4519" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5528" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5623" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5636" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5637" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5672" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5674" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="6634:6680" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6715" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6717" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="7822:7902" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="9012:9093" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="10204:10323" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="11298:11299" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11307" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11356" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11363" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11372" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11407" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11409" placeholder="INSERT INTO " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/FirstJoinManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#ServerManager#0" expanded="false" />
-            <element signature="e#197#198#0" expanded="false" />
-            <element signature="e#233#234#0" expanded="false" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="1035:1109" placeholder="CREATE TABLE... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1742" placeholder="SELECT Total... " />
+            <marker date="1458988253000" expanded="true" signature="1727:1773" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1788" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2471" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2492" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2507" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="3158:3217" placeholder="SELECT Serve... Server" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/sql/SQLManager.java">
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/storage/SQLManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="3174:3216" placeholder="SELECT id, f... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -651,39 +1237,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#13523#13531#0" expanded="true" />
+            <element signature="e#14357#14365#0" expanded="true" />
+            <element signature="e#15481#15489#0" expanded="true" />
+            <marker date="1459032454000" expanded="true" signature="1770:1981" placeholder="CREATE TABLE... Server" />
+            <marker date="1459032454000" expanded="true" signature="2594:2615" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2639" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2680" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2700" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2742" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2744" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2764" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2807" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2828" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2871" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2873" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2916" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2970" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3005" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3007" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="3634:3671" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="3634:3706" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="4504:4519" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4533" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4547" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4553" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4560" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4573" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4575" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4510:4511" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="4510:4519" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5528" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5623" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5636" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5637" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5672" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5674" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="6634:6680" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6715" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6717" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="7822:7902" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="9012:9093" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="10204:10323" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="11298:11299" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11307" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11356" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11363" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11372" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11407" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11409" placeholder="INSERT INTO " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#ServerManager#0" expanded="false" />
-            <element signature="e#197#198#0" expanded="false" />
-            <element signature="e#233#234#0" expanded="false" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="1035:1109" placeholder="CREATE TABLE... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1742" placeholder="SELECT Total... " />
+            <marker date="1458988253000" expanded="true" signature="1727:1773" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1788" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2471" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2492" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2507" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="3158:3217" placeholder="SELECT Serve... Server" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/sql/SQLManager.java">
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/storage/SQLManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="3174:3216" placeholder="SELECT id, f... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -691,102 +1336,422 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#13523#13531#0" expanded="true" />
+            <element signature="e#14357#14365#0" expanded="true" />
+            <element signature="e#15481#15489#0" expanded="true" />
+            <marker date="1459032454000" expanded="true" signature="1770:1981" placeholder="CREATE TABLE... Server" />
+            <marker date="1459032454000" expanded="true" signature="2594:2615" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2639" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2680" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2700" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2742" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2744" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2764" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2807" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2828" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2871" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2873" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2916" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2970" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3005" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3007" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="3634:3671" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="3634:3706" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="4504:4519" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4533" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4547" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4553" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4560" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4573" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4575" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4510:4511" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="4510:4519" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5528" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5623" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5636" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5637" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5672" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5674" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="6634:6680" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6715" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6717" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="7822:7902" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="9012:9093" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="10204:10323" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="11298:11299" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11307" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11356" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11363" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11372" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11407" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11409" placeholder="INSERT INTO " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#ServerManager#0" expanded="false" />
-            <element signature="e#197#198#0" expanded="false" />
-            <element signature="e#233#234#0" expanded="false" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="1035:1109" placeholder="CREATE TABLE... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1742" placeholder="SELECT Total... " />
+            <marker date="1458988253000" expanded="true" signature="1727:1773" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1788" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2471" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2492" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2507" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="3158:3217" placeholder="SELECT Serve... Server" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/sql/SQLManager.java">
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/storage/SQLManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="3174:3216" placeholder="SELECT id, f... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/New Server.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Users/iTZaK/Desktop/Games/Test Server/spigot.jar!/org/bukkit/Bukkit.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/logging/Logger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="436" column="42" selection-start-line="436" selection-start-column="42" selection-end-line="436" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.33269963">
+          <caret line="356" column="20" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/FirstJoinManager.java">
+    <entry file="jar://$PROJECT_DIR$/../../gm/s/spigot_server.jar!/org/bukkit/Bukkit.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state vertical-scroll-proportion="-1.9444444">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gm/s/spigot_server.jar!/org/bukkit/Server.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2222223">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/ArrayDeque.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21699819">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate-configuration-3.0.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0813397">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/LeaveGameManager.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Void.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.108499095">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a3463c2-5e11-4bf5-b1bd-b08de7f7554b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="73" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/ServerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#ServerManager#0" expanded="false" />
-            <element signature="e#197#198#0" expanded="false" />
-            <element signature="e#233#234#0" expanded="false" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="1035:1109" placeholder="CREATE TABLE... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1742" placeholder="SELECT Total... " />
+            <marker date="1458988253000" expanded="true" signature="1727:1773" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="1727:1788" placeholder="SELECT Total... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2471" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2492" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="2442:2507" placeholder="SELECT Serve... Server" />
+            <marker date="1458988253000" expanded="true" signature="3158:3217" placeholder="SELECT Serve... Server" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gm/s/spigot_server.jar!/org/bukkit/permissions/PermissionAttachment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4678899">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gm/s/spigot_server.jar!/org/bukkit/entity/Player.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7553517">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gm/s/spigot_server.jar!/org/bukkit/entity/Entity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18348624">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/EventHandlers/LeaveGameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1184#1185#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/io/File.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34900543">
+          <caret line="389" column="19" selection-start-line="389" selection-start-column="19" selection-end-line="389" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/EventHandlers/KickPlayerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#288#289#0" expanded="false" />
+            <element signature="e#324#325#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../gm/s/spigot_server.jar!/com/google/common/cache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21699819">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/io/Serializable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Throwable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16274865">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Exception.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.108499095">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/RuntimeException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.108499095">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/UnsupportedOperationException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.108499095">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/com/sun/tools/jdi/EventSetImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3761302">
+          <caret line="306" column="22" selection-start-line="306" selection-start-column="22" selection-end-line="306" selection-end-column="22" />
+          <folding>
+            <element signature="e#10797#10798#0" expanded="true" />
+            <element signature="e#10854#10855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/ArrayList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43037975">
+          <caret line="219" column="16" selection-start-line="219" selection-start-column="16" selection-end-line="219" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/EventHandlers/JoinGameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#595#609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/permissions/PermissionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1459032454000" expanded="true" signature="1269:1315" placeholder="CREATE TABLE... p_permissions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/storage/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/storage/SQLManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1458988253000" expanded="true" signature="3174:3216" placeholder="SELECT id, f... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/server/permissions/GroupsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.666667">
+          <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#764#772#0" expanded="true" />
+            <element signature="e#827#835#0" expanded="true" />
+            <element signature="e#1802#1810#0" expanded="true" />
+            <element signature="e#2684#2692#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/player/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        <state vertical-scroll-proportion="10.086206">
+          <caret line="392" column="33" selection-start-line="392" selection-start-column="33" selection-end-line="392" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/kanga/newserver/sql/SQLManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#13523#13531#0" expanded="true" />
+            <element signature="e#14357#14365#0" expanded="true" />
+            <element signature="e#15481#15489#0" expanded="true" />
+            <marker date="1459032454000" expanded="true" signature="1770:1981" placeholder="CREATE TABLE... Server" />
+            <marker date="1459032454000" expanded="true" signature="2594:2615" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2639" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2680" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2700" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2742" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2744" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2764" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2807" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2828" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2871" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2873" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2916" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:2970" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3005" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="2594:3007" placeholder="UPDATE Playe... " />
+            <marker date="1459032454000" expanded="true" signature="3634:3671" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="3634:3706" placeholder="SELECT uuid Players" />
+            <marker date="1459032454000" expanded="true" signature="4504:4519" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4533" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4547" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4553" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4560" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4573" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4504:4575" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="4510:4511" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="4510:4519" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5528" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5623" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5636" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5637" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5672" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="5527:5674" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="6634:6680" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6715" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="6634:6717" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="7822:7902" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="9012:9093" placeholder="SELECT total... players" />
+            <marker date="1459032454000" expanded="true" signature="10204:10323" placeholder="UPDATE playe... " />
+            <marker date="1459032454000" expanded="true" signature="11298:11299" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11307" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11356" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11363" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11372" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11407" placeholder="INSERT INTO " />
+            <marker date="1459032454000" expanded="true" signature="11298:11409" placeholder="INSERT INTO " />
           </folding>
         </state>
       </provider>
@@ -833,7 +1798,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -858,7 +1823,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.38-bin</last-edited>
+          <last-edited>spigot_server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
